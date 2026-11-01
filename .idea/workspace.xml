@@ -4,50 +4,161 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a588b085-760f-4773-96d0-fe154cdbdda8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amey/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amey/Main.java" afterDir="false" />
+    <list default="true" id="a588b085-760f-4773-96d0-fe154cdbdda8" name="Changes" comment="CRUD operations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/amey/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/amey/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/amey/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amey/Alien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amey/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amey/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amey/student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dev-ameyjoshi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dev-ameyjoshi/HibProj.git&quot;,
+    &quot;accountId&quot;: &quot;5b30f118-0a53-47b2-b4cd-e62c6b53e129&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.038798421990285E-266" />
+      <entry key="S30" value="6.761142873081456E-89" />
+      <entry key="S60" value="2.01193046398651E-44" />
+      <entry key="M2" value="3.9484347248922736E-22" />
+      <entry key="M5" value="1.5120678518015777E-8" />
+      <entry key="M10" value="6.509409300882173E-4" />
+      <entry key="M15" value="0.02385241777661887" />
+      <entry key="M30" value="0.8989085182905145" />
+      <entry key="H1" value="5.5845470405331845" />
+      <entry key="H2" value="13.964811320177963" />
+      <entry key="H4" value="22.101726734150873" />
+      <entry key="D1" value="32.417298117668714" />
+      <entry key="W1" value="34.61877701010229" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000001449474545" />
+      <entry key="S60" value="1.0003807196534018" />
+      <entry key="M2" value="1.01951203867877" />
+      <entry key="M5" value="1.2070718499344797" />
+      <entry key="M10" value="1.455159096862455" />
+      <entry key="M15" value="1.5958305171877152" />
+      <entry key="M30" value="1.938255741303996" />
+      <entry key="H1" value="2.9602726369027823" />
+      <entry key="H2" value="4.687058872566672" />
+      <entry key="H4" value="6.354389874792509" />
+      <entry key="D1" value="8.469745744381987" />
+      <entry key="W1" value="8.921713576320329" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="5.694781442485395E-5" />
+      <entry key="MS500" value="0.14161048566197482" />
+      <entry key="S2" value="0.613442488626902" />
+      <entry key="S5" value="0.8224500687124643" />
+      <entry key="S10" value="0.906890328933143" />
+      <entry key="S30" value="0.9679471640413965" />
+      <entry key="S60" value="0.9842133234669342" />
+      <entry key="M2" value="1.011132674656592" />
+      <entry key="M5" value="1.2026771564990886" />
+      <entry key="M10" value="1.4529250157640388" />
+      <entry key="M15" value="1.6174913146441572" />
+      <entry key="M30" value="2.8355995384793067" />
+      <entry key="H1" value="8.543163875765499" />
+      <entry key="H2" value="18.650287342888664" />
+      <entry key="H4" value="28.454960352862603" />
+      <entry key="D1" value="40.88677411026622" />
+      <entry key="W1" value="43.54044970125358" />
+    </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3HtOoreAijyH4KbiJVtZWXV31uT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Alien.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.amey.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Ameynewworkspace/HibProj/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.amey.Main">
+    <configuration name="Alien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amey.Alien" />
+      <module name="HibProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amey.Main" />
       <module name="HibProj" />
@@ -61,11 +172,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="amey.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="amey.Main" />
+      <module name="HibProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.amey.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Alien" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,11 +218,37 @@
       <workItem from="1787286450103" duration="3882000" />
       <workItem from="1787374449320" duration="645000" />
       <workItem from="1787398648660" duration="3173000" />
-      <workItem from="1787461944560" duration="2477000" />
+      <workItem from="1787461944560" duration="5077000" />
+      <workItem from="1787833458429" duration="2354000" />
+      <workItem from="1788012231220" duration="234000" />
+      <workItem from="1788075784780" duration="2943000" />
+      <workItem from="1788184475032" duration="1337000" />
+      <workItem from="1788494165061" duration="3608000" />
+      <workItem from="1789738981915" duration="4374000" />
+      <workItem from="1789885229604" duration="621000" />
+      <workItem from="1789889916133" duration="1487000" />
+      <workItem from="1789900922457" duration="950000" />
     </task>
+    <task id="LOCAL-00001" summary="CRUD operations">
+      <option name="closed" value="true" />
+      <created>1787467058432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787467058432</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CRUD operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operations" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

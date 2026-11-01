@@ -1,4 +1,4 @@
-package com.amey;
+package amey;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
