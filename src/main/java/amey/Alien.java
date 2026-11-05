@@ -3,7 +3,9 @@ package amey;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
+
 
 
 import java.util.List;
@@ -20,7 +22,7 @@ public class Alien {
     //Helps to perform the object operation but not the operation in databse, allowing you to skip that operation in the database.
 
     private String tech;
-    @OneToMany(mappedBy = "alien")
+    @ManyToMany
     private List<Laptop> laptops;
 
 

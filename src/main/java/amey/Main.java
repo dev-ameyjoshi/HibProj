@@ -16,23 +16,46 @@ public class Main {
             Laptop l1 = new Laptop();
             l1.setLid(1);
             l1.setBrand("Asus");
-            l1.setModel("Rog");
-            l1.setRam(16);
+            l1.setModel("Ultrabook");
+            l1.setRam(32);
 
             Laptop l2 = new Laptop();
             l2.setLid(2);
-            l2.setBrand("Lenovo");
-            l2.setModel("Legion");
-            l2.setRam(32);
+            l2.setBrand("Asus");
+            l2.setModel("Rog");
+            l2.setRam(16);
+
+            Laptop l3 = new Laptop();
+            l3.setLid(3);
+            l3.setBrand("Apple");
+            l3.setModel("Mac");
+            l3.setRam(12);
 
             Alien a1 = new Alien();
             a1.setAid(101);
             a1.setaName("Amey");
             a1.setTech("Java");
-            a1.setLaptops(Arrays.asList(l1,l2));
 
-            l1.setAlien(a1);
-            l2.setAlien(a1);
+
+            Alien a2 = new Alien();
+            a2.setAid(102);
+            a2.setaName("Harsh");
+            a2.setTech("JavaScript");
+
+
+            Alien a3 = new Alien();
+            a3.setAid(103);
+            a3.setaName("Sam");
+            a3.setTech("TypeScript");
+
+
+            a1.setLaptops(Arrays.asList(l1,l2));
+            a2.setLaptops(Arrays.asList(l2,l3));
+            a3.setLaptops(Arrays.asList(l1));
+
+            l1.setAliens(Arrays.asList(a1,a2));
+            l2.setAliens(Arrays.asList(a2,a3));
+            l3.setAliens(Arrays.asList(a2));
 
 
             SessionFactory sf = new Configuration()
@@ -55,7 +78,11 @@ public class Main {
             // to create data
             session.persist(l1);
             session.persist(l2);
+            session.persist(l3);
+
             session.persist(a1);
+            session.persist(a2);
+            session.persist(a3);
 
             // to update or create data (if data does not exsist)
             //session.merge(s1);
@@ -66,8 +93,8 @@ public class Main {
 
             transaction.commit();
 
-            Alien a2 = session.find(Alien.class,101);
-            System.out.println(a2);
+            Alien a5 = session.find(Alien.class,102);
+            System.out.println(a5);
 
 
             session.close();
